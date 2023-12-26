@@ -10,7 +10,7 @@ public class SwiggyAppConfig {
 
     @Bean
     @LoadBalanced
-    public RestTemplate template(){
+    public RestTemplate template() {
         return new RestTemplate();
     }
 }
